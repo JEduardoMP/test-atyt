@@ -6,7 +6,7 @@ import ErrorMessage from './components/ErrorMessage';
 import { Post } from './types/Posts';
 import ProductSearch from './ProductSearch';
 
-export default function Dashboard() {
+export default function App() {
   const [user, setUser] = useState(null);
   const [posts, setPosts] = useState<Post[] | []>([]);
   const [loading, setLoading] = useState(true);
